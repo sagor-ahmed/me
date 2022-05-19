@@ -1,6 +1,9 @@
 /*----------------------------------------*/
+
+
 /*  RESPONSIVE CSS START 
 /*----------------------------------------*/
+
 @media (min-width: 1400px) {
     .container {
         max-width: 1320px;
@@ -13,6 +16,9 @@
 @media (min-width: 1600px) {
     .container {
         max-width: 1500px
+    }
+    .paragraph {
+        font-size: 1.8rem;
     }
 }
 
@@ -30,130 +36,96 @@
 
 
 /* laptop devices 1200 - 1600 */
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
 
-    .banner-text {
-        padding-left: 80px;
-    }
-}
-
-
-/* laptop devices 1200 - 1600 */
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-
     .paragraph {
         font-size: 1.6rem;
     }
-
-
 }
 
 
-
 /* large devices 992 - 1199*/
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
     /*slider*/
     .banner-text {
         padding-left: 50px;
     }
-
     /*about css*/
     .about-content p {
         font-size: 1.5rem;
     }
-
     .about-content {
         margin-bottom: 2rem;
     }
-
     .paragraph {
         font-size: 1.5rem;
     }
-
     .paragraph strong {
         font-size: 1.6rem;
         font-weight: 600;
     }
-
-
     /*skil css*/
-
     .skills-content p {
         font-size: 1.5rem;
     }
-
-
     /*main menu*/
     .main-menu li a {
         padding: 1.8rem 0;
     }
-
     .logo {
         padding: 2rem 0;
     }
-
     /*contact*/
     .info-text {
         padding: 0 0 0 4px;
     }
-
     .info-text h4 {
         font-size: 16px;
     }
-
 }
+
 
 /*only screen and (min-width: 768px) and*/
 
-/* Medium devices 768 - 991 */
-@media (max-width: 991px) {
 
+/* Medium devices 768 - 991 */
+
+@media (max-width: 991px) {
     /*commen classes*/
     .pt-100 {
         padding-top: 50px;
     }
-
     section {
         padding: 4rem 0 !important;
     }
-
     /*slider*/
     .slider-img {
         margin-bottom: 50px;
     }
-
     .banner-text {
         padding-left: 0px;
         text-align: center;
     }
-
     /*about css*/
     .about-img.w-img {
         margin-bottom: 50px;
     }
-
     /*skil css*/
-
     .skills-content {
         margin-bottom: 50px;
     }
-
     .pricing-item {
         margin-bottom: 3rem;
     }
-
     /*service css*/
     .services-item {
         margin-bottom: 47px;
-
     }
-
     /*portfolio*/
     .single-portfolio {
         margin-bottom: 50px;
     }
-
     /*Humberger menu*/
     .nav-toggle {
         font-size: 1.5rem;
@@ -168,14 +140,12 @@
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
     .links {
         height: 0;
         overflow: hidden;
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
     .links li {
         display: block;
         text-align: left;
@@ -185,7 +155,6 @@
         /* margin: 0; */
         height: 42px;
     }
-
     .main-menu .links li a {
         font-size: 1.3rem !important;
         text-transform: capitalize;
@@ -196,24 +165,19 @@
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
     .logo {
         float: left;
         padding: 1.8rem 0;
     }
-
     .sticky-bg-responsive {
         display: block;
     }
-
     .banner-text p {
         padding-right: 0px;
     }
-
     .banner-text h5 {
         display: none;
     }
-
     div#header-sticky {
         position: fixed;
         -webkit-box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
@@ -223,24 +187,21 @@
         width: 100%;
         z-index: 9999;
     }
-
     .banner-text {
         padding-left: 0px;
         padding: 100px 0 100px 0;
     }
-
     .submit-btn {
         margin-top: 0;
     }
     .skil-thumb {
         margin-bottom: 40px;
     }
-
     .skill__list li h4 {
         font-size: 1.1875rem;
         margin-top: 1rem;
     }
-    .responsive-mt-20{
+    .responsive-mt-20 {
         margin-top: 47px;
     }
     .fact-item {
@@ -252,91 +213,71 @@
     .contact-form-item i {
         width: 8%;
     }
-
 }
 
 
 /* Small devices 576 - 767 */
+
 @media (max-width: 767px) {
-
-
     section {
         padding: 3.5rem 0 !important;
     }
-
     .section-title.mb-80 {
         margin-bottom: 60px;
     }
-
     .call-to-action h2 {
         font-size: 2.5rem;
     }
-
     .price {
         font-size: 35px;
     }
-
     .fact-item {
         margin-bottom: 3rem;
     }
-
     /*commen classes*/
     .pt-100 {
         padding-top: 50px;
     }
-
     /*slider*/
     .slider-img {
         margin-bottom: 50px;
     }
-
     .banner-text h3 {
         font-size: 3rem;
     }
-
     .info-text h4 {
         font-size: 15px;
     }
-
     .logo {
         float: left;
         padding: 1.8rem 0;
     }
-
     .sticky-bg-responsive {
         display: block;
     }
-
     .banner-text p {
         padding-right: 0px;
     }
-
     .banner-text {
         padding-left: 0px;
         text-align: center;
     }
-
     /*about css*/
     .about-img.w-img {
         margin-bottom: 50px;
     }
-
     /*skil css*/
     .skills-content {
         margin-bottom: 50px;
     }
-
     /*service css*/
     .services-item {
         margin-bottom: 47px;
     }
-
     /*portfolio*/
-
     .single-portfolio {
         margin-bottom: 35px;
     }
-
     /*Humberger menu*/
     .nav-toggle {
         font-size: 1.5rem;
@@ -351,14 +292,12 @@
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
     .links {
         height: 0;
         overflow: hidden;
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
     .links li {
         display: block;
         text-align: left;
@@ -369,7 +308,6 @@
         height: 42px;
         margin-top: -3px;
     }
-
     .main-menu .links li a {
         font-size: 1.3rem !important;
         text-transform: capitalize;
@@ -380,93 +318,74 @@
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
     .portfolio-section .mt-40 {
         margin-top: -3px;
     }
-
     .banner-text h4 {
         display: none;
     }
-
     .banner-text h2 {
         display: none;
     }
- 
-    .r-mt-47-mobile{
+    .r-mt-47-mobile {
         margin-top: 47px;
     }
-    .responsive-mt-20{
+    .responsive-mt-20 {
         margin-top: 0px;
     }
-
     section#services {
         margin-bottom: 100px;
     }
     .contact-form-item i {
         width: 9%;
     }
-  
 }
+
 
 /* Small devices 0 - 575 */
 
 @media (max-width: 575px) {
-
     .paragraph {
         font-size: 1.4rem;
     }
-
     section {
         padding: 3rem 0 !important;
     }
-
     .paragraph strong {
         font-size: 1.6rem;
     }
-
     .skills-content p {
         font-size: 1.4rem;
     }
-
     .banner-text h3 {
         line-height: 3rem;
     }
-
     .testimonial-content p {
         font-size: 1.4rem;
     }
-
     /*section title*/
     .section-title p {
         font-size: 1.4rem;
     }
-
     /*banner*/
     .banner-text h3 {
         font-size: 2.3rem !important;
     }
-
     .banner-text p {
         padding-right: 0px;
         font-size: 1.4rem;
     }
-
     .container {
         padding-right: 1.5rem !important;
         padding-left: 1.5rem !important;
     }
-
     .testimonial-item {
         margin: 25px;
     }
-
     /*about css*/
     .about-content p {
         font-size: 1.4rem;
     }
-
-
     /*Humberger menu*/
     .nav-toggle {
         font-size: 1.5rem;
@@ -481,14 +400,12 @@
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
     .links {
         height: 0;
         overflow: hidden;
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
     .main-menu .links li a {
         font-size: 1.3rem !important;
         text-transform: capitalize;
@@ -499,76 +416,62 @@
         -webkit-transition: all 0.3s linear;
         transition: all 0.3s linear;
     }
-
     .logo {
         float: left;
         padding: 1.4rem 0;
     }
-
     .sticky-bg-responsive {
         display: block;
     }
-
     .banner-text h5 {
         font-size: 2rem;
     }
-
-
     .about-content h3 {
         font-size: 1.9rem;
         line-height: 1.4;
     }
- 
     .contact-form-item i {
         width: 15%;
     }
-
-    .contact-img img{
+    .contact-img img {
         width: 100%;
     }
 }
 
 
 /* Small devices 0 - 575 */
-@media (min-width: 992px) {
 
+@media (min-width: 992px) {
     .nav-toggle {
         display: none;
     }
-
     .sticky-bg-responsive {
         background-color: #222;
     }
-
     .links {
         height: auto;
     }
-
 }
-
 
 @media (min-width: 767px) {
     .banner-text h5 {
         display: none;
     }
-  
 }
 
-
-
 @media (max-width: 479px) {
-    .skill__content:first-child, .skill__content .skill__list:first-child {
+    .skill__content:first-child,
+    .skill__content .skill__list:first-child {
         margin-right: 0rem;
         margin-bottom: 4rem;
     }
     ul.skill__list {
         text-align: center;
     }
-    .skill__content{
+    .skill__content {
         flex-direction: column;
     }
     .btn-contact {
         margin-top: 10px;
     }
 }
-

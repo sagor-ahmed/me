@@ -1,8 +1,8 @@
-(function ($) {
+(function($) {
 
     var typed = new Typed('.type', {
         strings: [
-      'Freelancer',
+            'Freelancer',
             'Front End Devoloper',
             'Web Devoloper',
             'Wordpress Expert',
@@ -19,7 +19,7 @@
 
     // . Data-Background Js
 
-    $("[data-background").each(function () {
+    $("[data-background").each(function() {
 
         $(this).css("background-image", "url( " + $(this).attr("data-background") + "  )");
 
@@ -80,14 +80,14 @@
         }
 
     });
-/*MIXIT UP PLUGIN*/
-var containerEl = document.querySelector('.mix_container');
-var mixer = mixitup(containerEl, {
-    selectors: {
-        control: '[our-mixitup-control]'
-    }
-});
-/*MIXIT UP PLUGIN*/
+    /*MIXIT UP PLUGIN*/
+    var containerEl = document.querySelector('.mix_container');
+    var mixer = mixitup(containerEl, {
+        selectors: {
+            control: '[our-mixitup-control]'
+        }
+    });
+    /*MIXIT UP PLUGIN*/
 
     ////////////////////////////////////////////////////
 
@@ -141,15 +141,13 @@ var mixer = mixitup(containerEl, {
     });
 
 
-
-
     ////////////////////////////////////////////////////
 
-    //  Scroll To Top Js
+    // 02. Scroll To Top Js
 
     function smoothSctollTop() {
 
-        $('.smooth-scroll a').on('click', function (event) {
+        $('.smooth-scroll a').on('click', function(event) {
 
             var target = $(this.getAttribute('href'));
 
@@ -172,17 +170,18 @@ var mixer = mixitup(containerEl, {
     smoothSctollTop();
 
 
+
     // Show or hide the sticky footer button
 
-    $(window).on('scroll', function (event) {
+    $(window).on('scroll', function(event) {
 
         if ($(this).scrollTop() > 600) {
 
-            $('#scroll').fadeIn(200)
+            $('.scroll-up').fadeIn(200)
 
         } else {
 
-            $('#scroll').fadeOut(200)
+            $('.scroll-up').fadeOut(200)
 
         }
 
@@ -192,7 +191,7 @@ var mixer = mixitup(containerEl, {
 
     //Animate the scroll to yop
 
-    $('#scroll').on('click', function (event) {
+    $('.scroll-up').on('click', function(event) {
 
         event.preventDefault();
 
@@ -207,12 +206,11 @@ var mixer = mixitup(containerEl, {
     });
 
 
-
     ////////////////////////////////////////////////////
 
     //  Sticky Header Js
 
-    $(window).on('scroll', function () {
+    $(window).on('scroll', function() {
 
         var scroll = $(window).scrollTop();
 
@@ -256,7 +254,7 @@ var mixer = mixitup(containerEl, {
 const navToggle = document.querySelector(".nav-toggle");
 const links = document.querySelector(".links");
 
-navToggle.addEventListener("click", function () {
+navToggle.addEventListener("click", function() {
     // console.log(links.classList);
     // console.log(links.classList.contains("random"));
     // console.log(links.classList.contains("links"));
